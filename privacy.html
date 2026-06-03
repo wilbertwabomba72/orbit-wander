@@ -14,38 +14,43 @@
     p, li { color:var(--muted); line-height:1.65; }
     .card { border:1px solid rgba(93,168,218,.32); border-radius:8px; background:rgba(9,24,52,.74); padding:18px; margin-top:22px; }
     a { color:#8bd7ff; }
+    code { color:#e8f4ff; }
   </style>
 </head>
 <body>
   <main>
     <h1>Orbit Wander Privacy Policy</h1>
-    <p>Effective date: May 30, 2026</p>
+    <p>Effective date: June 3, 2026</p>
 
     <div class="card">
-      <p>Orbit Wander is an offline casual puzzle game. This policy describes the current version of the app as submitted without account features, advertising SDKs, analytics SDKs, or online services.</p>
+      <p>Orbit Wander is a casual space puzzle game. This policy describes the current version of the app with local gameplay progress, security protection using a device identifier, and third-party rewarded advertising that is initialized after the App Tracking Transparency permission flow where required.</p>
     </div>
 
     <h2>Data We Collect</h2>
-    <p>Orbit Wander does not collect personal information from players. The app does not ask for a name, email address, phone number, account login, location, contacts, photos, microphone access, or camera access.</p>
+    <p>Orbit Wander does not ask for a name, email address, phone number, account login, precise location, contacts, photos, microphone access, or camera access. The app uses local gameplay data, device and security identifiers, a backend advertising configuration request, and third-party advertising services as described below.</p>
 
     <h2>Local Game Data</h2>
-    <p>The app stores gameplay progress locally on the device, including unlocked levels, star ratings, best distance, score, and audio or trajectory settings. This data stays on the device and is used only to continue gameplay.</p>
+    <p>The app stores gameplay progress locally on the device, including unlocked levels, star ratings, best distance, score, and audio or trajectory settings. This local gameplay data is used to continue gameplay and maintain in-game settings.</p>
+
+    <h2>Security and Device Identifiers</h2>
+    <p>On launch, the app may use the device's Identifier for Vendor (IDFV) as a security user identifier for HSSecurity. This is used for fraud and abuse prevention, app integrity, and service stability. The security SDK may process technical information such as device, app, network, and diagnostic signals for those purposes.</p>
+    <p>The app also requests ad unit configuration from <code>https://ad-call.de123.net/app/ad/units</code> using the app bundle identifier. This request is used to decide which advertising platforms and ad units are enabled for the current app version.</p>
 
     <h2>Tracking and Advertising</h2>
-    <p>The current version does not use third-party advertising, tracking, or analytics services. It does not request permission to track the player across apps or websites owned by other companies.</p>
+    <p>Orbit Wander may display rewarded ads through Chartboost, Yandex, Vungle, and InMobi. These providers are initialized only when the app receives valid dynamic advertising configuration for that provider. Depending on the player's consent choices and the ad partner's configuration, these services may process information such as device identifiers, advertising identifiers, IP address, approximate location derived from network information, app interaction events, ad impressions, and diagnostic data.</p>
+    <p>On iOS, if tracking permission is required, the app presents Apple's App Tracking Transparency prompt before allowing access to the device advertising identifier for personalized advertising. If the player does not allow tracking, the app will not use the advertising identifier for tracking, although ads may still be shown in a contextual or limited-personalization form.</p>
 
     <h2>Children's Privacy</h2>
-    <p>Orbit Wander does not knowingly collect personal information from children. Because the app does not collect personal data, there is no account profile or server-side player record to delete.</p>
+    <p>Orbit Wander does not knowingly ask children to provide personal information. The app does not include account profiles or user-submitted content. Advertising partners may apply their own child-directed treatment, limited ads, or consent rules where required.</p>
 
     <h2>Data Sharing</h2>
-    <p>We do not sell, rent, or share personal information because the app does not collect personal information.</p>
+    <p>We do not sell personal information directly. Advertising partners and the security SDK provider may receive or process technical, security, and advertising-related information to provide, protect, measure, limit, and improve their services, subject to the player's consent choices and applicable privacy settings.</p>
 
     <h2>Changes to This Policy</h2>
-    <p>If a future version adds online services, advertising, analytics, cloud saves, or any other data collection, this policy and the App Store privacy labels will be updated before that version is released.</p>
+    <p>If a future version changes the advertising partners, security SDK behavior, analytics, cloud saves, account features, or other data collection practices, this policy and the App Store privacy labels will be updated before that version is released.</p>
 
     <h2>Contact</h2>
-    <p>For privacy questions, use the developer contact information listed on the App Store product page for Orbit Wander.</p>
-    <p>Or contact developer at phone number 17817542304 or email 707570996@qq.com.</p>
+    <p>For privacy questions, use the developer contact information listed on the App Store product page for Orbit Wander, or contact the developer at 17817542304 or 707570996@qq.com.</p>
 
     <p><a href="index.html">Back to Orbit Wander</a></p>
   </main>
